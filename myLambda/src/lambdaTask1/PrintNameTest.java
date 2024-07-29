@@ -1,0 +1,12 @@
+package lambdaTask1;
+
+public class PrintNameTest {
+	
+	public static void getFullName(PrintName printName, String lastName, String firstName) {
+		System.out.println(printName.getName(lastName, firstName));
+	}
+	
+	public static void main(String[] args) {
+		PrintNameTest.getFullName((l, f) -> l + f, "Á¤", "À¯Áø");
+	}
+}
