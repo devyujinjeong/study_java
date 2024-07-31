@@ -37,7 +37,11 @@ public class ClassTask1 {
 		SuperCar ferrari=new SuperCar("페라리","red",50_000);  
 //		페라리가 객체고 거기에 주소값이 들어가 있는것임! 중괄호가 없으니 사용.
 //		근데 선언한적이 없는데 어케 사용?!
-		SuperCar lamborghini=new SuperCar("람보르기니", "yellow",60_000); 
+		SuperCar lamborghini=new SuperCar("람보르기니"); 
+		
+		System.out.println(lamborghini.brand); // 브랜드 출력
+		System.out.println(lamborghini.color); // null 출력
+		System.out.println(lamborghini.price); // 0 출력
 		
 		System.out.println(ferrari.brand);
 		System.out.println(ferrari.color);
