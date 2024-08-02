@@ -40,14 +40,14 @@ class SuperCar extends Car{
 	@Override
 //	여기에서 오버라이딩 할때는 Car에서 썼던 메소드도 실행하고, 그 밑에 원하는거 추가
 	void engineStart() {
-		super.engineStart();
-		System.out.println("음성으로 시동 켜짐");
+		super.engineStart(); // Car에서 사용한 메소드 그대로 쓴다는 의미의 코드
+		System.out.println("음성으로 시동 켜짐"); // 추가할 내용
 	}
 	
-//	여기에서 오버라이딩 할때는 Car에서 썼던 메소드는 사용하지 않고, 내가 원하는 메소드로 대체하기
+//	여기에서 오버라이딩 할때는 Car에서 썼던 메소드는 사용하지 않고, 내가 원하는 것으로 대체하기
 	@Override
 	void engineStop() {
-		System.out.println("음성으로 시동 끔");
+		System.out.println("음성으로 시동 끔"); // 내가 원하는 내용만 넣기
 	}
 }
 

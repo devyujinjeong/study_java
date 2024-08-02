@@ -15,6 +15,7 @@ public class Access1 {
 		this.data4=40;
 	}
 	
+	// getter, setter
 	public void setData(int data4) {
 		this.data4=data4;
 	}
