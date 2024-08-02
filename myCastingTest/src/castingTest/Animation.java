@@ -6,3 +6,4 @@ public class Animation extends Video{
 		System.out.println("자막 지원");
 	}
 }
+	

@@ -21,7 +21,7 @@ public class CastingTask {
 		}
 		
 		else { // 객체 간의 타입 비교하기
-			((Film)video).sellGoods(); // down casting
+			((Movie)video).sellGoods(); // down casting
 		}
 	}
 
@@ -33,7 +33,7 @@ public class CastingTask {
 		Video[] video= {
 				new Animation(),
 				new Drama(),
-				new Film()
+				new Movie()
 		};
 		
 		for(int i=0;i<video.length;i++) {

@@ -26,6 +26,7 @@ public class CastingTest {
 //		up casting
 //		부모클래스 객체명 = new 자식클래스();
 		Car noOptionFerrari=new SuperCar(); //SuperCar도 Car 타입!!
+//		SuperCar car = new Car; // 이 경우는 불가능함
 		
 //		down casting (자식 클래스로 돌리기)
 //		up casting했던 것을 down casting 한 것임!!
