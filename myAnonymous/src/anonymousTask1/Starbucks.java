@@ -1,4 +1,4 @@
-package anonymousTask;
+package anonymousTask1;
 
 public class Starbucks {
 //	지점(객체)에서 첫 1회 등록시 사용할 메소드
