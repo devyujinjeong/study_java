@@ -6,7 +6,7 @@ public class Puppy implements Animals {
 	@Override
 	public void sitDown() {
 		// TODO Auto-generated method stub
-
+		System.out.println("난 강아지. 앉을게~! ");
 	}
 
 	@Override
