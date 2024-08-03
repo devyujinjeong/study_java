@@ -15,10 +15,10 @@ public class ToStringTest {
 		
 		System.out.println(student);
 		
-//		Random r= new Random();
+		Random r= new Random();
 //		그동안 객체를 출력할 때 toString()이 생략되어 있었음.
 //		r이라는 객체를 통해 toString() 메소드를 사용
-//		System.out.println(r.toString());
+		System.out.println(r.toString());
 	}
 }
 

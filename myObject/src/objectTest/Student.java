@@ -5,7 +5,7 @@ public class Student {
 	String name;
 	String major;
 	
-	public Student() {;}
+	public Student() {;} // 기본 생성자
 	
 	public Student(int number, String name, String major) {
 		super();
@@ -19,11 +19,9 @@ public class Student {
 	@Override
 	public String toString() {
 		return number + "," + name + "," + major;
-		
 	}
 
 	@Override
-//	밑은 약간 fm대로 코드를 짠 것
 	public boolean equals(Object obj) {
 		if(obj==this) {return true;} //obj 너 나(this)랑 주소가 같니? 맨 처음에는 주소 비교하기
 		if(obj instanceof Student) { //obj 너 혹시 학생이긴 하니?
