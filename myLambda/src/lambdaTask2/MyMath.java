@@ -10,7 +10,6 @@ public class MyMath {
 	public static void main(String[] args) {
 //		함수형 인터페이스의 메소드 만들기
 		OperCheck operCheck = e -> {
-//			이거 null을 넣는것과 ""을 넣는것의 쓰임새가 다르게 있다고 하셨는데, 그게 정확히 뭐지??
 			String result="";
 			for(int i=0;i<e.length();i++) { //입력한 e의 길이만큼 반복하기.
 				char c=e.charAt(i); 
@@ -32,10 +31,9 @@ public class MyMath {
 		int number1=0, number2=0;
 		number1=Integer.parseInt(numbers[0]);
 		
-//		숫자가 n개면 연산은 n-1번만큼 진행함.
 		for(int i=0;i<opers.length;i++) {
-			number2= Integer.parseInt(numbers[i]+1);
-			number1=MyMath.operator(opers[i]).calculate(number1,number2);
+			number2= Integer.parseInt(numbers[i+1]);
+			number1= MyMath.operator(opers[i]).calculate(number1,number2);
 		}
 		
 		System.out.println(number1);

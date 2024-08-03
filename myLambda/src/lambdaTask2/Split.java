@@ -1,6 +1,7 @@
 package lambdaTask2;
 
 public class Split {
+	// split 사용 연습하기
 	public static void main(String[] args) {
 		String expression="1+9-7";
 //		위의 1+9-7이라는 String을 +또는 -로 나눠주고 numbers라는 String 배열에 다믹

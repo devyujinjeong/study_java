@@ -2,6 +2,7 @@ package lambdaTask1;
 
 @FunctionalInterface
 public interface PrintName {
-	public String getName(String lastName, String firstName);
+	// 성과 이름 사용자에게 받기
+	public String getFullName(String lastName, String firstName);
 }
 
