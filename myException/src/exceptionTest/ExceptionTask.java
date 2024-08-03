@@ -13,8 +13,8 @@ public class ExceptionTask {
 //		- if문은 딱 한 번만 사용하기
 		
 		Scanner sc = new Scanner(System.in);
-		int[] arrayData = new int[5]; //5개의 정수를 넣을 배열 만들기. 몇 칸 만들지는 알지만 어떤 수가 들어갈지 모름
-		int i=0;
+		int[] arrayData = new int[5];
+		int i= 0;
 		String number=null;
 		
 		
@@ -22,14 +22,14 @@ public class ExceptionTask {
 			System.out.print(++i+"번째 정수를 입력하세요: ");
 			number=sc.next(); //숫자 입력 받기
 					
-//			만약 입력한 값이 q라면 while문을 나가기
-//			if문에서 break를 쓰는 경우에는 if문을 감싸고 있는 중괄호를 나가게 됨
+			// 만약 입력한 값이 q라면 while문을 나가기
+			// if문에서 break를 쓰는 경우에는 if문을 감싸고 있는 중괄호를 나가게 됨
 			if(number.equals("q")) {break;}	
 			
 			try {
-//				number에 정수가 아닌 다른 자료형을 입력하게 될 경우 형변환을 할 수 없기 때문에 오류가 발생
+			// number에 정수가 아닌 다른 자료형을 입력하게 될 경우 형변환을 할 수 없기 때문에 오류가 발생할 수 있는 문장
 				arrayData[i-1]=Integer.parseInt(number);
-			} catch (NumberFormatException e) {
+			} catch (NumberFormatException e) { // 숫자가 아닌 다른 것을 입력했을 경우
 				System.out.println("정수만 입력해주세요!!");
 				i--;
 			} catch(ArrayIndexOutOfBoundsException e) { //배열의 index 개수를 초과
