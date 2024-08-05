@@ -10,6 +10,7 @@ public class WrapperTask {
 //		Object 배열에 넣어준다.
 
 //		밑에 datas에서 'A', true, "ABC"는 auto_boxing
+// 		1, 10.9도 당연히 auto_boxing 가능
 		Object[] datas= {Integer.valueOf(1),Double.valueOf(10.9),'A',true,"ABC"};
 	
 //		빠른 for문, forEach문, 향상된 for문
