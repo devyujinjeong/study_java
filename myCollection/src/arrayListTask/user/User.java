@@ -7,7 +7,7 @@ public class User {
 	private String password;
 	private String phoneNumber;
 	
-//	기본 생성자 --> 이거 꼭 쓰라고 하셨던 이유가 있는데 왜 때문이지.....?
+//	기본 생성자
 	public User() {;}
 	
 //	getter,setter 메소드

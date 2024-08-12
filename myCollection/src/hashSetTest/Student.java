@@ -7,7 +7,6 @@ public class Student {
 	public Student() {;}
 
 	public Student(int number, String name) {
-		super();
 		this.number = number;
 		this.name = name;
 	}

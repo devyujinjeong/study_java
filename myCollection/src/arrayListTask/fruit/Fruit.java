@@ -2,8 +2,9 @@ package arrayListTask.fruit;
 
 public class Fruit {
 //	과일 정보를 담을 클래스 선언(Fruit)
-//	- 과일 이름(중복 없음)
-//	- 과일 가격
+//	1) 과일 이름(중복 없음)
+//	2) 과일 가격
+	
 	private String fruitName;
 	private int fruitPrice;
 	
@@ -52,10 +53,4 @@ public class Fruit {
 			return false;
 		return true;
 	}
-	
-	
-	
-	
-	
-
 }
