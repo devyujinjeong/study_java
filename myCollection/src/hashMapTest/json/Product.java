@@ -59,10 +59,7 @@ public class Product {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((productName == null) ? 0 : productName.hashCode());
 		result = prime * result + productNumber;
-		result = prime * result + productPrice;
-		result = prime * result + productStock;
 		return result;
 	}
 
@@ -75,19 +72,8 @@ public class Product {
 		if (getClass() != obj.getClass())
 			return false;
 		Product other = (Product) obj;
-		if (productName == null) {
-			if (other.productName != null)
-				return false;
-		} else if (!productName.equals(other.productName))
-			return false;
 		if (productNumber != other.productNumber)
 			return false;
-		if (productPrice != other.productPrice)
-			return false;
-		if (productStock != other.productStock)
-			return false;
 		return true;
-	}
-	   
-	   
+	}   
 }

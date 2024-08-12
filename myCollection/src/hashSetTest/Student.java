@@ -32,6 +32,8 @@ public class Student {
 		return "Student [number=" + number + ", name=" + name + "]";
 	}
 	
+	// student는 num이 고유하기 때문에 이것으로 구분이 가능
+	// 그래서 num으로 equals랑 hashcode 재정의
 	@Override
 	public boolean equals(Object obj) {
 		if(this == obj) {return true;}
