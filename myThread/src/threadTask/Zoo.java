@@ -17,8 +17,9 @@ public class Zoo {
       sounds.stream().map(sound -> new Thread(animal, sound)).forEach(animals::add);
       
       for(int i=0; i<animals.size(); i++) {
-         animals.get(i).start();
-         if(i != 0) {
+    	  animals.get(i).start();
+
+    	  if(i == 0) {
             try {animals.get(i).join();} catch (InterruptedException e) {;}
          }
       }      
