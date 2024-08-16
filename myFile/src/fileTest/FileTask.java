@@ -15,7 +15,7 @@ public class FileTask {
 //		bw.write("아이라인\n");
 //		bw.close();
 		
-//		BufferedWriter bw = new BufferedWriter(new FileWriter("fashion.txt"));
+//		BufferedWriter bw =	new BufferedWriter(new FileWriter("fashion.txt"));
 //		bw.write("상의\n");
 //		bw.write("하의\n"); 
 //		bw.write("아우터\n");

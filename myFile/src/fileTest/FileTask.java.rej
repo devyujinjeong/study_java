@@ -1,0 +1,9 @@
+diff a/myFile/src/fileTest/FileTask.java b/myFile/src/fileTest/FileTask.java	(rejected hunks)
+@@ -15,6 +15,7 @@
+ //		bw.write("���̶���\n");
+ //		bw.close();
+ 		
++//		BufferedWriter bw =	new BufferedWriter(new FileWriter("fashion.txt"));
+ //		bw.write("����\n");
+ //		bw.write("����\n"); 
+ //		bw.write("�ƿ���\n");
